@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.main__boxes{
+    display:grid;
+    grid-template:"grid grid grid grid " 150px ;
+    column-gap: 40px;
+    row-gap: 80px;
+    padding: 30px 40px 30px 40px;
+     max-width:80%;
+     margin:auto;
+}
+
+.main__boxes__item{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main__boxes__item__text-head{
+    color: blue;
+}
+.main__boxes__item__text-paragraph{
+    position: relative;
+    left: -30px;
+}
